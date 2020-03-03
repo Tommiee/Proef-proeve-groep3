@@ -16,9 +16,14 @@ public class ScreenInput : MonoBehaviour
                 // Create a particle if hit
                 if (Physics.Raycast(ray))
                 {
-                    Instantiate(particle, transform.position, transform.rotation);
+                    PressedOnObject();
                 }
             }
         }
+    }
+
+    private void PressedOnObject()
+    {
+        Instantiate(particle, transform.position, transform.rotation);
     }
 }
