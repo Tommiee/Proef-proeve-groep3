@@ -6,7 +6,8 @@ public class ScreenInput : MonoBehaviour
     public delegate Collider onPressedDelegate(Collider _colider);
     public event onPressedDelegate OnPressed;
 
-    public int layerMask;
+    [SerializeField]
+    private LayerMask layerMask;
 
     private void Start()
     {
