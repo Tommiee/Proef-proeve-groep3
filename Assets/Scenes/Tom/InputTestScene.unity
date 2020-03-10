@@ -153,6 +153,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda2c5e9e3b16ed4f9f0004ae4403a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _catchEffect: {fileID: 54515282509463738, guid: 61aec7a2401763345bb8ef15e4e61137,
+    type: 3}
   _type: Cow
 --- !u!65 &32003082
 BoxCollider:
@@ -336,6 +338,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda2c5e9e3b16ed4f9f0004ae4403a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _catchEffect: {fileID: 54515282509463738, guid: 61aec7a2401763345bb8ef15e4e61137,
+    type: 3}
   _type: Sheep
 --- !u!1001 &244748613
 PrefabInstance:
@@ -479,6 +483,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda2c5e9e3b16ed4f9f0004ae4403a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _catchEffect: {fileID: 54515282509463738, guid: 61aec7a2401763345bb8ef15e4e61137,
+    type: 3}
   _type: Owl
 --- !u!65 &498272743
 BoxCollider:
@@ -1041,7 +1047,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.42875576, g: 0.4344493, b: 0.4433962, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1082,7 +1088,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080552559}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -4.65}
+  m_LocalPosition: {x: 0, y: 2, z: -4.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1248,6 +1254,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda2c5e9e3b16ed4f9f0004ae4403a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _catchEffect: {fileID: 54515282509463738, guid: 61aec7a2401763345bb8ef15e4e61137,
+    type: 3}
   _type: Cat
 --- !u!65 &1390460525
 BoxCollider:
@@ -1356,6 +1364,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda2c5e9e3b16ed4f9f0004ae4403a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _catchEffect: {fileID: 54515282509463738, guid: 61aec7a2401763345bb8ef15e4e61137,
+    type: 3}
   _type: Fox
 --- !u!65 &1613396581
 BoxCollider:
@@ -1461,7 +1471,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 458eb14a930de7d4ebb16df3f27e8cda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  layerMask: 8
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!4 &1778791338
 Transform:
   m_ObjectHideFlags: 0
@@ -1588,6 +1600,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda2c5e9e3b16ed4f9f0004ae4403a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _catchEffect: {fileID: 54515282509463738, guid: 61aec7a2401763345bb8ef15e4e61137,
+    type: 3}
   _type: Deer
 --- !u!65 &1993748624
 BoxCollider:

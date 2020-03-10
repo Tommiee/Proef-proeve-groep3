@@ -9,11 +9,6 @@ public class ScreenInput : MonoBehaviour
     [SerializeField]
     private LayerMask layerMask;
 
-    private void Start()
-    {
-        layerMask = 1 << layerMask;
-    }
-
     void Update()
     {
         if (Input.touchCount > 0)

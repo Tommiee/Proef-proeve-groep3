@@ -12,6 +12,9 @@ public class Animal : MonoBehaviour
     private AnimalManager _animalManager;
     private Collider _collider;
 
+    [SerializeField]
+    private ParticleSystem _catchEffect;
+
     public string _type;
 
     void Start()
@@ -39,7 +42,8 @@ public class Animal : MonoBehaviour
         if (_animalManager != null)
         {
             _animalManager.SendMessage("CaughtAnimal", _type, SendMessageOptions.RequireReceiver);
-            Destroy(this);
+            Instantiate(_catchEffect, transform.position, transform.rotation);
+            Destroy(gameObject);
         }
 
         //trigger anim
