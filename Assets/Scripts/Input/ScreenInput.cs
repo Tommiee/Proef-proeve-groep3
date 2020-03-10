@@ -6,6 +6,13 @@ public class ScreenInput : MonoBehaviour
     public delegate Collider onPressedDelegate(Collider _colider);
     public event onPressedDelegate OnPressed;
 
+    public int layerMask;
+
+    private void Start()
+    {
+        layerMask = 1 << layerMask;
+    }
+
     void Update()
     {
         if (Input.touchCount > 0)
@@ -19,9 +26,7 @@ public class ScreenInput : MonoBehaviour
 
                     RaycastHit hit;
 
-                    Debug.DrawRay(ray.origin, ray.direction * 100f, Color.white, 3.0f);
-
-                    if (Physics.Raycast(ray, out hit))
+                    if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask))
                     {
                         PressedOnObject(hit.collider);
                     }
@@ -33,6 +38,5 @@ public class ScreenInput : MonoBehaviour
     private void PressedOnObject(Collider _col)
     {
         OnPressed?.Invoke(_col);
-        print(_col);
     }
 }
