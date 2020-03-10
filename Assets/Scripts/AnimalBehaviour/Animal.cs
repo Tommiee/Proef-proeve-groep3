@@ -26,7 +26,7 @@ public class Animal : MonoBehaviour
 
     private void CheckAnimal(Collider _col)
     {
-        if(_collider == _col)
+        if (_collider == _col)
         {
             AnimalCaught();
         }
@@ -35,13 +35,14 @@ public class Animal : MonoBehaviour
     private void AnimalCaught()
     {
         OnCaught?.Invoke();
-        if(_animalManager != null)
+
+        if (_animalManager != null)
         {
-            _animalManager.SendMessage("CaughtAnimal", _type, SendMessageOptions.DontRequireReceiver);
+            _animalManager.SendMessage("CaughtAnimal", _type, SendMessageOptions.RequireReceiver);
+            Destroy(this);
         }
 
         //trigger anim
 
-        Destroy(this);
     }
 }
