@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ScreenInput : MonoBehaviour
 {
-    public delegate Collider onPressedDelegate(Collider _colider);
+    public delegate void onPressedDelegate(Collider _colider);
     public event onPressedDelegate OnPressed;
 
     [SerializeField]
