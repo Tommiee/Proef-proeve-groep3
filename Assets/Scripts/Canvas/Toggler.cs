@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ToggleImage : MonoBehaviour
+public class Toggler : MonoBehaviour
 {
     private bool _isOn;
 

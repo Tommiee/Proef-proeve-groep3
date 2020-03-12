@@ -339,7 +339,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 121997216}
-  - component: {fileID: 121997218}
   - component: {fileID: 121997217}
   m_Layer: 5
   m_Name: Fox
@@ -376,33 +375,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 121997215}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: a8536aabfe9440b4793c62cf86306314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.6792453, g: 0.26391262, b: 0.17621931, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &121997218
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 121997215}
-  m_CullTransparentMesh: 0
+  _sprite: {fileID: 0}
+  _animalName: Test_Animal
 --- !u!1 &134145706
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,7 +498,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 214068780}
-  - component: {fileID: 214068782}
   - component: {fileID: 214068781}
   m_Layer: 5
   m_Name: Fox (1)
@@ -558,33 +534,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 214068779}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: a8536aabfe9440b4793c62cf86306314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.6792453, g: 0.26391262, b: 0.17621931, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &214068782
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 214068779}
-  m_CullTransparentMesh: 0
+  _sprite: {fileID: 0}
+  _animalName: Test_Animal
 --- !u!1 &409514903
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,7 +548,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 409514904}
-  - component: {fileID: 409514906}
   - component: {fileID: 409514905}
   m_Layer: 5
   m_Name: Cow (1)
@@ -631,33 +584,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 409514903}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: a8536aabfe9440b4793c62cf86306314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.18867922, g: 0.18867922, b: 0.18867922, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &409514906
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 409514903}
-  m_CullTransparentMesh: 0
+  _sprite: {fileID: 0}
+  _animalName: Test_Animal
 --- !u!1 &438899779
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,7 +598,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 438899780}
-  - component: {fileID: 438899782}
   - component: {fileID: 438899781}
   m_Layer: 5
   m_Name: Sheep (1)
@@ -704,33 +634,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 438899779}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: a8536aabfe9440b4793c62cf86306314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &438899782
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 438899779}
-  m_CullTransparentMesh: 0
+  _sprite: {fileID: 0}
+  _animalName: Test_Animal
 --- !u!1 &446369020
 GameObject:
   m_ObjectHideFlags: 0
@@ -1125,7 +1033,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 883441123}
-  - component: {fileID: 883441125}
   - component: {fileID: 883441124}
   m_Layer: 5
   m_Name: Cat
@@ -1162,33 +1069,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 883441122}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: a8536aabfe9440b4793c62cf86306314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.764151, g: 0.62753004, b: 0.3135903, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &883441125
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 883441122}
-  m_CullTransparentMesh: 0
+  _sprite: {fileID: 0}
+  _animalName: Test_Animal
 --- !u!1 &924103912
 GameObject:
   m_ObjectHideFlags: 0
@@ -1198,7 +1083,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 924103913}
-  - component: {fileID: 924103915}
   - component: {fileID: 924103914}
   m_Layer: 5
   m_Name: Cow (2)
@@ -1235,33 +1119,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 924103912}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: a8536aabfe9440b4793c62cf86306314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.18867922, g: 0.18867922, b: 0.18867922, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &924103915
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 924103912}
-  m_CullTransparentMesh: 0
+  _sprite: {fileID: 0}
+  _animalName: Test_Animal
 --- !u!1 &959114149
 GameObject:
   m_ObjectHideFlags: 0
@@ -1271,7 +1133,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 959114150}
-  - component: {fileID: 959114152}
   - component: {fileID: 959114151}
   m_Layer: 5
   m_Name: Deer
@@ -1308,33 +1169,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 959114149}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: a8536aabfe9440b4793c62cf86306314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.6792453, g: 0.42995322, b: 0.1954432, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &959114152
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 959114149}
-  m_CullTransparentMesh: 0
+  _sprite: {fileID: 0}
+  _animalName: Test_Animal
 --- !u!1 &960808835
 GameObject:
   m_ObjectHideFlags: 0
@@ -1620,7 +1459,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1158100133}
-  - component: {fileID: 1158100135}
   - component: {fileID: 1158100134}
   m_Layer: 5
   m_Name: Owl
@@ -1657,33 +1495,70 @@ MonoBehaviour:
   m_GameObject: {fileID: 1158100132}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: a8536aabfe9440b4793c62cf86306314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.5283019, g: 0.28235173, b: 0.13705947, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1158100135
-CanvasRenderer:
+  _sprite: {fileID: 0}
+  _animalName: Test_Animal
+--- !u!1 &1268019489
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1158100132}
-  m_CullTransparentMesh: 0
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1268019490}
+  - component: {fileID: 1268019491}
+  m_Layer: 0
+  m_Name: CanvasController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1268019490
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268019489}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 313.17865, y: 166.15663, z: 228.23369}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1268019491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268019489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67a132d9d11ddaa49a26c9080358d01a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _images:
+  - {fileID: 1576319483}
+  - {fileID: 2126949018}
+  - {fileID: 1158100134}
+  - {fileID: 883441124}
+  - {fileID: 959114151}
+  - {fileID: 121997217}
+  - {fileID: 438899781}
+  - {fileID: 409514905}
+  - {fileID: 1667793888}
+  - {fileID: 1619658226}
+  - {fileID: 1956224217}
+  - {fileID: 214068781}
+  - {fileID: 924103914}
+  - {fileID: 2083436282}
+  - {fileID: 1676008786}
 --- !u!1 &1374918232
 GameObject:
   m_ObjectHideFlags: 0
@@ -1921,7 +1796,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1576319482}
-  - component: {fileID: 1576319484}
   - component: {fileID: 1576319483}
   m_Layer: 5
   m_Name: Sheep
@@ -1958,33 +1832,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1576319481}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: a8536aabfe9440b4793c62cf86306314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1576319484
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1576319481}
-  m_CullTransparentMesh: 0
+  _sprite: {fileID: 0}
+  _animalName: Test_Animal
 --- !u!1 &1613396579
 GameObject:
   m_ObjectHideFlags: 0
@@ -2103,7 +1955,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1619658225}
-  - component: {fileID: 1619658227}
   - component: {fileID: 1619658226}
   m_Layer: 5
   m_Name: Cat (1)
@@ -2140,33 +1991,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1619658224}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: a8536aabfe9440b4793c62cf86306314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.764151, g: 0.62753004, b: 0.3135903, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1619658227
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1619658224}
-  m_CullTransparentMesh: 0
+  _sprite: {fileID: 0}
+  _animalName: Test_Animal
 --- !u!1 &1667793886
 GameObject:
   m_ObjectHideFlags: 0
@@ -2176,7 +2005,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1667793887}
-  - component: {fileID: 1667793889}
   - component: {fileID: 1667793888}
   m_Layer: 5
   m_Name: Owl (1)
@@ -2213,33 +2041,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1667793886}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: a8536aabfe9440b4793c62cf86306314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.5283019, g: 0.28235173, b: 0.13705947, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1667793889
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1667793886}
-  m_CullTransparentMesh: 0
+  _sprite: {fileID: 0}
+  _animalName: Test_Animal
 --- !u!1 &1676008784
 GameObject:
   m_ObjectHideFlags: 0
@@ -2249,7 +2055,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1676008785}
-  - component: {fileID: 1676008787}
   - component: {fileID: 1676008786}
   m_Layer: 5
   m_Name: Fox (2)
@@ -2286,33 +2091,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1676008784}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: a8536aabfe9440b4793c62cf86306314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.6792453, g: 0.26391262, b: 0.17621931, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1676008787
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1676008784}
-  m_CullTransparentMesh: 0
+  _sprite: {fileID: 0}
+  _animalName: Test_Animal
 --- !u!1 &1778791336
 GameObject:
   m_ObjectHideFlags: 0
@@ -2511,7 +2294,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1956224216}
-  - component: {fileID: 1956224218}
   - component: {fileID: 1956224217}
   m_Layer: 5
   m_Name: Deer (1)
@@ -2548,33 +2330,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1956224215}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: a8536aabfe9440b4793c62cf86306314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.6792453, g: 0.42995322, b: 0.1954432, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1956224218
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1956224215}
-  m_CullTransparentMesh: 0
+  _sprite: {fileID: 0}
+  _animalName: Test_Animal
 --- !u!1 &1993748622
 GameObject:
   m_ObjectHideFlags: 0
@@ -2693,7 +2453,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2083436281}
-  - component: {fileID: 2083436283}
   - component: {fileID: 2083436282}
   m_Layer: 5
   m_Name: Cat (2)
@@ -2730,33 +2489,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2083436280}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: a8536aabfe9440b4793c62cf86306314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.764151, g: 0.62753004, b: 0.3135903, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &2083436283
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2083436280}
-  m_CullTransparentMesh: 0
+  _sprite: {fileID: 0}
+  _animalName: Test_Animal
 --- !u!1 &2126949016
 GameObject:
   m_ObjectHideFlags: 0
@@ -2766,7 +2503,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2126949017}
-  - component: {fileID: 2126949019}
   - component: {fileID: 2126949018}
   m_Layer: 5
   m_Name: Cow
@@ -2803,30 +2539,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 2126949016}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: a8536aabfe9440b4793c62cf86306314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.18867922, g: 0.18867922, b: 0.18867922, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &2126949019
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2126949016}
-  m_CullTransparentMesh: 0
+  _sprite: {fileID: 0}
+  _animalName: Test_Animal
