@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CanvasController : MonoBehaviour
-{
+public class CanvasController : MonoBehaviour {
     [HideInInspector]
     public static CanvasController Instance;
 
@@ -14,8 +13,7 @@ public class CanvasController : MonoBehaviour
     [SerializeField]
     private List<Animal_Image> _images;
 
-    void Start()
-    {
+    void Start() {
         if (Instance == null) {
             Instance = this;
             DontDestroyOnLoad(Instance);
@@ -28,7 +26,17 @@ public class CanvasController : MonoBehaviour
     }
 
     private void CheckDictionary() {
-        if(_animalDict.Count != _images.Count) Debug.LogError("Animal Gameobject and Animal Image mismatch"); 
+
+        if (_animalDict.Count != _images.Count) Debug.LogError("Animal Gameobject and Animal Image count mismatch");
+
+        for (int i = 0; i < _animalDict.Count; i++) {
+            if (_animalDict.ContainsKey(_images[i]._animalName)) {
+                if (_animalDict[_images[i]._animalName] > 0) {
+                    _images[i].MakeVisible();
+                }
+            }
+        }
+
     }
 
     private void InitImages() {

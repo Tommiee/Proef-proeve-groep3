@@ -379,7 +379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _animalName: Fox
 --- !u!1 &134145706
 GameObject:
   m_ObjectHideFlags: 0
@@ -1073,7 +1073,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _animalName: Cat
 --- !u!1 &924103912
 GameObject:
   m_ObjectHideFlags: 0
@@ -1173,7 +1173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _animalName: Deer
 --- !u!1 &960808835
 GameObject:
   m_ObjectHideFlags: 0
@@ -1499,7 +1499,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _animalName: Owl
 --- !u!1 &1268019489
 GameObject:
   m_ObjectHideFlags: 0
@@ -1578,7 +1578,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1374918233
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1836,7 +1836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _animalName: Sheep
 --- !u!1 &1613396579
 GameObject:
   m_ObjectHideFlags: 0
@@ -2543,4 +2543,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _animalName: Cow
