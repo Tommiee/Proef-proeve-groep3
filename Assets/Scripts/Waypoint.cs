@@ -8,10 +8,12 @@ public class Waypoint : MonoBehaviour
 {
     protected Action onCollide;
     protected SphereCollider sphereCollider;
+
+    public Color color = Color.green;
     private void Awake()
     {
         sphereCollider = GetComponent<SphereCollider>();
-        onCollide += () => Debug.Log("Collided");
+        onCollide += () => { };
     }
 
     public Vector3 position
@@ -22,7 +24,7 @@ public class Waypoint : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.green;
+        Gizmos.color = color;
         Gizmos.DrawSphere(transform.position, 0.5f);
     }
 
@@ -34,6 +36,6 @@ public class Waypoint : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         onCollide.Invoke();
-        onCollide = () => Debug.Log("Collided");
+        onCollide = () => { };
     }
 }

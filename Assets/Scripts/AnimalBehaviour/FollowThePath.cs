@@ -16,10 +16,15 @@ public class FollowThePath : MonoBehaviour
     private float moveSpeed = 2f;
     private int waypointIndex = 0;
 
+    [SerializeField]
+    private Vector2 waypointSpawnOffset;
+
+    [SerializeField]
+    private Color gizmoColor = Color.green;
+
     private void Awake()
     {
         waypoints = new List<Waypoint>(transform.GetComponentsInChildren<Waypoint>());
-        waypoints.Add(CreateWaypoint());
         currentTarget = waypoints[waypointIndex];
         currentTarget.OnCollide(() => NextPoint());
         transform.DetachChildren();
@@ -31,7 +36,7 @@ public class FollowThePath : MonoBehaviour
         Move();
     }
 
-    private void Move()
+    public void Move()
     {
         transform.position = Vector3.MoveTowards(transform.position, currentTarget.position, moveSpeed * Time.deltaTime);
     }
@@ -45,26 +50,32 @@ public class FollowThePath : MonoBehaviour
         {
             NextPoint();
         });
-        Debug.Log("Next point " + waypointIndex);
+        Debug.Log("Next point " + currentTarget.name);
     }
 
     public Waypoint CreateWaypoint()
     {
         Waypoint waypoint = Instantiate(waypointPrefab, transform);
-        waypoint.name = gameObject.name + "Waypoint";
+        waypoint.name = gameObject.name + "Waypoint" + transform.childCount;
+        waypoint.position = new Vector3( waypointSpawnOffset.x, transform.position.y, waypointSpawnOffset.y);
+        waypoint.color = gizmoColor;
         return waypoint;
     }
 
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.green;
+        Gizmos.color = gizmoColor;
         Waypoint[] childWaypoints = (waypoints.Count > 0)? waypoints.ToArray() : transform.GetComponentsInChildren<Waypoint>();
 
         for (int i = 0; i < childWaypoints.Length; i++)
         {
             Waypoint currentWaypoint = childWaypoints[i];
             Waypoint nextWaypoint = (i + 1 < childWaypoints.Length) ? childWaypoints[i + 1] : childWaypoints[0];
+            currentWaypoint.color = gizmoColor;
             Gizmos.DrawLine(currentWaypoint.position, nextWaypoint.position);
         }
+
+        if (!currentTarget) return;
+        currentTarget.color = new Color(1.0f - gizmoColor.r, 1.0f - gizmoColor.g, 1.0f - gizmoColor.b);
     }
 }
