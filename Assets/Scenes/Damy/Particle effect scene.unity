@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda2c5e9e3b16ed4f9f0004ae4403a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _catchEffect: {fileID: 54515282509463738, guid: 61aec7a2401763345bb8ef15e4e61137,
+  _catchEffect: {fileID: 5288917737890416694, guid: be7238e737a6cc34287249408a1cfb60,
     type: 3}
   _type: Cow
 --- !u!65 &32003082
@@ -486,7 +486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda2c5e9e3b16ed4f9f0004ae4403a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _catchEffect: {fileID: 54515282509463738, guid: 61aec7a2401763345bb8ef15e4e61137,
+  _catchEffect: {fileID: 5288917737890416694, guid: be7238e737a6cc34287249408a1cfb60,
     type: 3}
   _type: Sheep
 --- !u!1 &214068779
@@ -744,7 +744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda2c5e9e3b16ed4f9f0004ae4403a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _catchEffect: {fileID: 54515282509463738, guid: 61aec7a2401763345bb8ef15e4e61137,
+  _catchEffect: {fileID: 5288917737890416694, guid: be7238e737a6cc34287249408a1cfb60,
     type: 3}
   _type: Owl
 --- !u!65 &498272743
@@ -1710,7 +1710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda2c5e9e3b16ed4f9f0004ae4403a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _catchEffect: {fileID: 54515282509463738, guid: 61aec7a2401763345bb8ef15e4e61137,
+  _catchEffect: {fileID: 5288917737890416694, guid: be7238e737a6cc34287249408a1cfb60,
     type: 3}
   _type: Cat
 --- !u!65 &1390460525
@@ -1869,7 +1869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda2c5e9e3b16ed4f9f0004ae4403a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _catchEffect: {fileID: 54515282509463738, guid: 61aec7a2401763345bb8ef15e4e61137,
+  _catchEffect: {fileID: 5288917737890416694, guid: be7238e737a6cc34287249408a1cfb60,
     type: 3}
   _type: Fox
 --- !u!65 &1613396581
@@ -2367,7 +2367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda2c5e9e3b16ed4f9f0004ae4403a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _catchEffect: {fileID: 54515282509463738, guid: 61aec7a2401763345bb8ef15e4e61137,
+  _catchEffect: {fileID: 5288917737890416694, guid: be7238e737a6cc34287249408a1cfb60,
     type: 3}
   _type: Deer
 --- !u!65 &1993748624
@@ -2544,7 +2544,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
   _animalName: Cow
---- !u!1001 &5653810553671416836
+--- !u!1001 &3396353539341674865
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -2554,7 +2554,7 @@ PrefabInstance:
     - target: {fileID: 484217691859126928, guid: be7238e737a6cc34287249408a1cfb60,
         type: 3}
       propertyPath: m_Name
-      value: CatchEffect
+      value: CatchEffect edited
       objectReference: {fileID: 0}
     - target: {fileID: 2019735228543444588, guid: be7238e737a6cc34287249408a1cfb60,
         type: 3}
