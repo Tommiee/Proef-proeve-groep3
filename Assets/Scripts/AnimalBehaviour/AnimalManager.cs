@@ -12,7 +12,6 @@ public class AnimalManager : MonoBehaviour {
 
     private Dictionary<string, int> _animalDict = new Dictionary<string, int>();
 
-    // Start is called before the first frame update
     void Awake() {
         if (Instance == null) {
             Instance = this;
@@ -20,31 +19,25 @@ public class AnimalManager : MonoBehaviour {
         } else {
             Destroy(this);
         }
-
         FillDictionary();
     }
-
-
 
     private void FillDictionary() {
         Animal[] animals = FindObjectsOfType<Animal>();
         for (int i = 0; i < animals.Length; i++) {
             if (!_animalDict.ContainsKey(animals[i]._type)) {
                 _animalDict.Add(animals[i]._type, 0);
+                animals[i].OnCaught += CaughtAnimal;
             }
         }
     }
 
-    public Dictionary<string, int> GetDictionary() {
-        return _animalDict;
+    public void CaughtAnimal(string _type) {
+        _animalDict[_type]++;
+        OnDictionaryUpdate?.Invoke();
     }
 
-    public void CaughtAnimal(string _type) {
-        if (_animalDict.ContainsKey(_type)) {
-            _animalDict[_type]++;
-        } else {
-            _animalDict.Add(_type, 1);
-        }
-        OnDictionaryUpdate?.Invoke();
+    public Dictionary<string, int> GetDictionary() {
+        return _animalDict;
     }
 }

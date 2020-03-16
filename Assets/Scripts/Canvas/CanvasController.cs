@@ -27,21 +27,23 @@ public class CanvasController : MonoBehaviour {
 
     private void CheckDictionary() {
 
-        if (_animalDict.Count != _images.Count) Debug.LogError("Animal Gameobject and Animal Image count mismatch");
+        /*if (_animalDict.Count != _images.Count) {
+            Debug.LogError("Animal Gameobject and Animal Image count mismatch");
+            return;
+        }*/
 
-        for (int i = 0; i < _animalDict.Count; i++) {
+        for (int i = 0; i < _images.Count; i++) {
             if (_animalDict.ContainsKey(_images[i]._animalName)) {
                 if (_animalDict[_images[i]._animalName] > 0) {
                     _images[i].MakeVisible();
                 }
             }
         }
-
     }
 
     private void InitImages() {
         for (int i = 0; i < _images.Count; i++) {
-            _images[i].GetComponent<Animal_Image>().Init();
+            _images[i].Init();
         }
     }
 
