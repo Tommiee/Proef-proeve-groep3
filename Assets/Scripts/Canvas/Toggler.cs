@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Toggler : MonoBehaviour
-{
+public class Toggler : MonoBehaviour {
     private bool _isOn;
 
     [SerializeField]

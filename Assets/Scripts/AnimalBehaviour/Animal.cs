@@ -4,7 +4,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Collider))]
 public class Animal : MonoBehaviour {
-    public delegate void onCaughtDelegate();
+    public delegate void onCaughtDelegate(string _type);
     public event onCaughtDelegate OnCaught;
 
     private ScreenInput _screenInput;
@@ -32,15 +32,8 @@ public class Animal : MonoBehaviour {
     }
 
     private void AnimalCaught() {
-        OnCaught?.Invoke();
-
-        if (_animalManager != null) {
-            _animalManager.SendMessage("CaughtAnimal", _type, SendMessageOptions.RequireReceiver);
-            Instantiate(_catchEffect, transform.position, transform.rotation);
-            Destroy(gameObject);
-        }
-
-        //trigger anim
-
+        OnCaught?.Invoke(_type);
+        Instantiate(_catchEffect, transform.position, transform.rotation);
+        Destroy(gameObject);
     }
 }
