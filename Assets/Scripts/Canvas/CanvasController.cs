@@ -7,8 +7,7 @@ public class CanvasController : MonoBehaviour {
     [HideInInspector]
     public static CanvasController Instance;
 
-    private AnimalManager _animalManager;
-    private Dictionary<string, int> _animalDict = new Dictionary<string, int>();
+    private Dictionary<AnimalTypes._animalTypes, int> _animalDict = new Dictionary<AnimalTypes._animalTypes, int>();
 
     [SerializeField]
     private List<Animal_Image> _images;
@@ -32,9 +31,10 @@ public class CanvasController : MonoBehaviour {
             return;
         }*/
 
-        for (int i = 0; i < _images.Count; i++) {
-            if (_animalDict.ContainsKey(_images[i]._animalName)) {
-                if (_animalDict[_images[i]._animalName] > 0) {
+
+        for (int i = 0; i < _animalDict.Count; i++) {
+            if (_animalDict.ContainsKey(_images[i]._type)) {
+                if (_animalDict[_images[i]._type] > 0) {
                     _images[i].MakeVisible();
                 }
             }

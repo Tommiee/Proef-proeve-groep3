@@ -8,7 +8,7 @@ public class Animal_Image : MonoBehaviour {
     [Tooltip("Source Image (Sprite)")]
     public Sprite _sprite;
 
-    public string _animalName;
+    public AnimalTypes._animalTypes _type;
 
     private bool _isVisible;
 
@@ -26,7 +26,7 @@ public class Animal_Image : MonoBehaviour {
         //_imageComponent.color = new Color(255, 255, 255, 1f);
     }
 
-    public string GetName() {
-        return _animalName;
+    public AnimalTypes._animalTypes GetName() {
+        return _type;
     }
 }

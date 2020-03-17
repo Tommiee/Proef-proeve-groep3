@@ -2,11 +2,11 @@
 using System.Collections;
 
 public class ScreenInput : MonoBehaviour {
-    public delegate void onPressedDelegate(Collider _colider);
+    public delegate void onPressedDelegate(Collider _collider);
     public event onPressedDelegate OnPressed;
 
     [SerializeField]
-    private LayerMask layerMask;
+    private LayerMask _layerMask;
 
     void Update() {
         if (Input.touchCount > 0) {
@@ -17,7 +17,7 @@ public class ScreenInput : MonoBehaviour {
 
                     RaycastHit hit;
 
-                    if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask)) {
+                    if (Physics.Raycast(ray, out hit, Mathf.Infinity, _layerMask)) {
                         PressedOnObject(hit.collider);
                     }
                 }

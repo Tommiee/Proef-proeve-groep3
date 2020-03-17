@@ -4,7 +4,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Collider))]
 public class Animal : MonoBehaviour {
-    public delegate void onCaughtDelegate(string _type);
+    public delegate void onCaughtDelegate(AnimalTypes._animalTypes _type);
     public event onCaughtDelegate OnCaught;
 
     private ScreenInput _screenInput;
@@ -14,14 +14,11 @@ public class Animal : MonoBehaviour {
     [SerializeField]
     private ParticleSystem _catchEffect;
 
-    public string _type;
+    public AnimalTypes._animalTypes _type;
 
     void Start() {
         _screenInput = GameObject.FindObjectOfType<ScreenInput>();
         _screenInput.OnPressed += CheckAnimal;
-
-        _animalManager = GameObject.FindObjectOfType<AnimalManager>();
-
         _collider = gameObject.GetComponent<Collider>();
     }
 
@@ -33,6 +30,7 @@ public class Animal : MonoBehaviour {
 
     private void AnimalCaught() {
         OnCaught?.Invoke(_type);
+        AnimalManager.Instance.SendMessage("CaughtAnimal", _type, SendMessageOptions.RequireReceiver);
         Instantiate(_catchEffect, transform.position, transform.rotation);
         Destroy(gameObject);
     }
