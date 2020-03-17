@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Collider))]
+[RequireComponent(typeof(Collider), typeof(FollowThePath))]
 public class Animal : MonoBehaviour {
     public delegate void onCaughtDelegate(AnimalTypes._animalTypes _type);
     public event onCaughtDelegate OnCaught;
