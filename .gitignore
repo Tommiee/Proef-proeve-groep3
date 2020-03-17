@@ -84,3 +84,6 @@ Assets/Art/Prefabs/Shrub_01.prefab.meta
 *.prefab
 Assets/Art/Prefabs/TempPallette.prefab.meta
 Assets/Art/Prefabs/Tree_01.prefab.meta
+*.meta
+Assets/Art/3D Models/reed/reed.fbm.meta
+Assets/Art/3D Models/original windmolen.meta
