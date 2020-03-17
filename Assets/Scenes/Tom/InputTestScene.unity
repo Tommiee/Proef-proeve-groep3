@@ -153,9 +153,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda2c5e9e3b16ed4f9f0004ae4403a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _catchEffect: {fileID: 54515282509463738, guid: 61aec7a2401763345bb8ef15e4e61137,
+  _catchEffect: {fileID: 2762664982071606646, guid: cb9cebee13ef4cf4182aac22d51afb56,
     type: 3}
-  _type: Cow
+  _type: 2
 --- !u!65 &32003082
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -379,7 +379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Fox
+  _type: 6
 --- !u!1 &134145706
 GameObject:
   m_ObjectHideFlags: 0
@@ -486,9 +486,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda2c5e9e3b16ed4f9f0004ae4403a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _catchEffect: {fileID: 54515282509463738, guid: 61aec7a2401763345bb8ef15e4e61137,
+  _catchEffect: {fileID: 2762664982071606646, guid: cb9cebee13ef4cf4182aac22d51afb56,
     type: 3}
-  _type: Sheep
+  _type: 1
 --- !u!1 &214068779
 GameObject:
   m_ObjectHideFlags: 0
@@ -538,7 +538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _type: 0
 --- !u!1 &409514903
 GameObject:
   m_ObjectHideFlags: 0
@@ -588,7 +588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _type: 0
 --- !u!1 &438899779
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,7 +638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _type: 0
 --- !u!1 &446369020
 GameObject:
   m_ObjectHideFlags: 0
@@ -744,9 +744,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda2c5e9e3b16ed4f9f0004ae4403a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _catchEffect: {fileID: 54515282509463738, guid: 61aec7a2401763345bb8ef15e4e61137,
+  _catchEffect: {fileID: 2762664982071606646, guid: cb9cebee13ef4cf4182aac22d51afb56,
     type: 3}
-  _type: Owl
+  _type: 3
 --- !u!65 &498272743
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1073,7 +1073,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Cat
+  _type: 4
 --- !u!1 &924103912
 GameObject:
   m_ObjectHideFlags: 0
@@ -1123,7 +1123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _type: 0
 --- !u!1 &959114149
 GameObject:
   m_ObjectHideFlags: 0
@@ -1173,7 +1173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Deer
+  _type: 5
 --- !u!1 &960808835
 GameObject:
   m_ObjectHideFlags: 0
@@ -1499,7 +1499,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Owl
+  _type: 3
 --- !u!1 &1268019489
 GameObject:
   m_ObjectHideFlags: 0
@@ -1710,9 +1710,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda2c5e9e3b16ed4f9f0004ae4403a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _catchEffect: {fileID: 54515282509463738, guid: 61aec7a2401763345bb8ef15e4e61137,
+  _catchEffect: {fileID: 2762664982071606646, guid: cb9cebee13ef4cf4182aac22d51afb56,
     type: 3}
-  _type: Cat
+  _type: 4
 --- !u!65 &1390460525
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1836,7 +1836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Sheep
+  _type: 1
 --- !u!1 &1613396579
 GameObject:
   m_ObjectHideFlags: 0
@@ -1869,9 +1869,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda2c5e9e3b16ed4f9f0004ae4403a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _catchEffect: {fileID: 54515282509463738, guid: 61aec7a2401763345bb8ef15e4e61137,
+  _catchEffect: {fileID: 2762664982071606646, guid: cb9cebee13ef4cf4182aac22d51afb56,
     type: 3}
-  _type: Fox
+  _type: 6
 --- !u!65 &1613396581
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1995,7 +1995,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _type: 0
 --- !u!1 &1667793886
 GameObject:
   m_ObjectHideFlags: 0
@@ -2045,7 +2045,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _type: 0
 --- !u!1 &1676008784
 GameObject:
   m_ObjectHideFlags: 0
@@ -2095,7 +2095,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _type: 0
 --- !u!1 &1778791336
 GameObject:
   m_ObjectHideFlags: 0
@@ -2125,7 +2125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 458eb14a930de7d4ebb16df3f27e8cda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  layerMask:
+  _layerMask:
     serializedVersion: 2
     m_Bits: 256
 --- !u!4 &1778791338
@@ -2334,7 +2334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _type: 0
 --- !u!1 &1993748622
 GameObject:
   m_ObjectHideFlags: 0
@@ -2367,9 +2367,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda2c5e9e3b16ed4f9f0004ae4403a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _catchEffect: {fileID: 54515282509463738, guid: 61aec7a2401763345bb8ef15e4e61137,
+  _catchEffect: {fileID: 2762664982071606646, guid: cb9cebee13ef4cf4182aac22d51afb56,
     type: 3}
-  _type: Deer
+  _type: 5
 --- !u!65 &1993748624
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2493,7 +2493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _type: 0
 --- !u!1 &2126949016
 GameObject:
   m_ObjectHideFlags: 0
@@ -2543,4 +2543,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Cow
+  _type: 2

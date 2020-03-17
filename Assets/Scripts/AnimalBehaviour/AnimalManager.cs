@@ -7,10 +7,10 @@ public class AnimalManager : MonoBehaviour {
     [HideInInspector]
     public static AnimalManager Instance;
 
-    public delegate void OnDictionaryUpdateDelegate();
-    public event OnDictionaryUpdateDelegate OnDictionaryUpdate;
+    public delegate void onDictionaryUpdateDelegate();
+    public event onDictionaryUpdateDelegate OnDictionaryUpdate;
 
-    private Dictionary<string, int> _animalDict = new Dictionary<string, int>();
+    private Dictionary<AnimalTypes._animalTypes, int> _animalDict = new Dictionary<AnimalTypes._animalTypes, int>();
 
     void Awake() {
         if (Instance == null) {
@@ -32,12 +32,17 @@ public class AnimalManager : MonoBehaviour {
         }
     }
 
-    public void CaughtAnimal(string _type) {
-        _animalDict[_type]++;
-        OnDictionaryUpdate?.Invoke();
+
+    public Dictionary<AnimalTypes._animalTypes, int> GetDictionary() {
+        return _animalDict;
     }
 
-    public Dictionary<string, int> GetDictionary() {
-        return _animalDict;
+    public void CaughtAnimal(AnimalTypes._animalTypes _type) {
+        if (_animalDict.ContainsKey(_type)) {
+            _animalDict[_type]++;
+        } else {
+            _animalDict.Add(_type, 1);
+        }
+        OnDictionaryUpdate?.Invoke();
     }
 }
