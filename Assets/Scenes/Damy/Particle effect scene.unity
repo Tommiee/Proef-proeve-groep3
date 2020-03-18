@@ -155,7 +155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _catchEffect: {fileID: 5288917737890416694, guid: be7238e737a6cc34287249408a1cfb60,
     type: 3}
-  _type: Cow
+  _type: 0
 --- !u!65 &32003082
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -453,7 +453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Fox
+  _type: 0
 --- !u!1 &134145706
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,7 +562,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _catchEffect: {fileID: 5288917737890416694, guid: be7238e737a6cc34287249408a1cfb60,
     type: 3}
-  _type: Sheep
+  _type: 0
 --- !u!1 &214068779
 GameObject:
   m_ObjectHideFlags: 0
@@ -612,7 +612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _type: 0
 --- !u!1 &409514903
 GameObject:
   m_ObjectHideFlags: 0
@@ -662,7 +662,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _type: 0
 --- !u!1 &438899779
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,7 +712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _type: 0
 --- !u!1 &446369020
 GameObject:
   m_ObjectHideFlags: 0
@@ -820,7 +820,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _catchEffect: {fileID: 5288917737890416694, guid: be7238e737a6cc34287249408a1cfb60,
     type: 3}
-  _type: Owl
+  _type: 0
 --- !u!65 &498272743
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -894,6 +894,85 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &607321679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 607321682}
+  - component: {fileID: 607321681}
+  - component: {fileID: 607321680}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &607321680
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607321679}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ac64130be48971241bf8d116a3f283a3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &607321681
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607321679}
+  m_Mesh: {fileID: -462981019419857548, guid: a5da589af5b40744c9a64a1a941b694a, type: 3}
+--- !u!4 &607321682
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607321679}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 56.850327, y: 8.224665, z: -89.64748}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &617117648
 GameObject:
@@ -1055,7 +1134,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 7fc7e8cf13bc81444b946a0d52c92e1a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1147,7 +1226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Cat
+  _type: 0
 --- !u!1 &924103912
 GameObject:
   m_ObjectHideFlags: 0
@@ -1197,7 +1276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _type: 0
 --- !u!1 &959114149
 GameObject:
   m_ObjectHideFlags: 0
@@ -1247,7 +1326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Deer
+  _type: 0
 --- !u!1 &960808835
 GameObject:
   m_ObjectHideFlags: 0
@@ -1573,7 +1652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Owl
+  _type: 0
 --- !u!1 &1268019489
 GameObject:
   m_ObjectHideFlags: 0
@@ -1786,7 +1865,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _catchEffect: {fileID: 5288917737890416694, guid: be7238e737a6cc34287249408a1cfb60,
     type: 3}
-  _type: Cat
+  _type: 0
 --- !u!65 &1390460525
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1910,7 +1989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Sheep
+  _type: 0
 --- !u!1 &1613396579
 GameObject:
   m_ObjectHideFlags: 0
@@ -1945,7 +2024,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _catchEffect: {fileID: 5288917737890416694, guid: be7238e737a6cc34287249408a1cfb60,
     type: 3}
-  _type: Fox
+  _type: 0
 --- !u!65 &1613396581
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2069,7 +2148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _type: 0
 --- !u!1 &1667793886
 GameObject:
   m_ObjectHideFlags: 0
@@ -2119,7 +2198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _type: 0
 --- !u!1 &1676008784
 GameObject:
   m_ObjectHideFlags: 0
@@ -2169,7 +2248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _type: 0
 --- !u!1 &1778791336
 GameObject:
   m_ObjectHideFlags: 0
@@ -2199,9 +2278,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 458eb14a930de7d4ebb16df3f27e8cda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  layerMask:
+  _layerMask:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
 --- !u!4 &1778791338
 Transform:
   m_ObjectHideFlags: 0
@@ -2408,7 +2487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _type: 0
 --- !u!1 &1993748622
 GameObject:
   m_ObjectHideFlags: 0
@@ -2443,7 +2522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _catchEffect: {fileID: 5288917737890416694, guid: be7238e737a6cc34287249408a1cfb60,
     type: 3}
-  _type: Deer
+  _type: 0
 --- !u!65 &1993748624
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2567,7 +2646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Test_Animal
+  _type: 0
 --- !u!1 &2126949016
 GameObject:
   m_ObjectHideFlags: 0
@@ -2617,4 +2696,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprite: {fileID: 0}
-  _animalName: Cow
+  _type: 0
