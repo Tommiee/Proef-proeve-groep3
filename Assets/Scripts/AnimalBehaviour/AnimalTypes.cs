@@ -6,11 +6,11 @@ public static class AnimalTypes {
     [SerializeField]
     public enum _animalTypes {
         DEFAULT,
-        Sheep,
+        Wolf,
         Cow,
-        Owl,
-        Cat,
-        Deer,
-        Fox
+        Partridge,
+        Red_Deer,
+        Weasel,
+        Owl
     }
 }
