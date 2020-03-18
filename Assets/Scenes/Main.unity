@@ -1366,7 +1366,7 @@ GameObject:
   m_Component:
   - component: {fileID: 625873931}
   - component: {fileID: 625873930}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: InputManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1387,7 +1387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _layerMask:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
 --- !u!4 &625873931
 Transform:
   m_ObjectHideFlags: 0
