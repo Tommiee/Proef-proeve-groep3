@@ -62,3 +62,22 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+*.meta
+Assets/Art/3D models/original watermolen/watermolen_01.controller.meta
+Assets/Art/3D models/original watermolen/watermolen_02.fbx.meta
+Assets/Art/3D models/original windmolen/windmolen.fbx.meta
+Assets/Art/3D models/watermolen_02.fbx.meta
+Assets/Art/3D models/windmolen.fbx.meta
+Assets/Art/Animations/watermolen_01.controller.meta
+*.meta
+*.meta
+*.meta
+*.meta
+*.meta
+*.meta
+*.meta
+Assets/Art/3D Models/reed.meta
+Assets/Art/3D models/reed.meta
+Assets/Art/Prefabs/Shrub_01.prefab.meta
+Assets/Art/Prefabs/Shrub_01.prefab.meta
+*.meta
