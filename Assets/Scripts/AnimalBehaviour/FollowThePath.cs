@@ -39,6 +39,7 @@ public class FollowThePath : MonoBehaviour
     public void Move()
     {
         transform.position = Vector3.MoveTowards(transform.position, currentTarget.position, moveSpeed * Time.deltaTime);
+        transform.LookAt(currentTarget.transform);
     }
 
     private void NextPoint()

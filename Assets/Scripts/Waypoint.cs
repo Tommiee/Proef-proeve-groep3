@@ -13,7 +13,7 @@ public class Waypoint : MonoBehaviour
     private void Awake()
     {
         sphereCollider = GetComponent<SphereCollider>();
-        onCollide += () => { };
+        onCollide += () => { print("collided"); };
     }
 
     public Vector3 position
